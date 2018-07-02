@@ -73,7 +73,6 @@ object Factorization extends App {
 
   println(factorizationRec(target, 2, Map()))
 }
-
 ```
 
 - getOrElseメソッド

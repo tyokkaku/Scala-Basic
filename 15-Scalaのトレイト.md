@@ -68,7 +68,7 @@ class Class1 extends TraitB with TraitC
 解決方法
 
 1. 定義時にメソッドをoverrideする
-2. superに肩を指定してメソッドを呼び出す
+2. superに型を指定してメソッドを呼び出す
   - `` override def メソッド名(): Unit = super[指定するトレイト名].greet()``
 
 両方のメソッドを呼び出したい場合
